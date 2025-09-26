@@ -129,8 +129,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Happy Coding! 🎉**
-
-# Write to README.md file
-$readmeContent | Out-File -FilePath "README.md" -Encoding UTF8
-
-Write-Host "README.md file created successfully!" -ForegroundColor Green
