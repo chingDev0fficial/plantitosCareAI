@@ -115,6 +115,7 @@ This project is licensed under the [MIT License](LICENSE).
 - Laravel Framework
 - Python Community
 - NPM and Node.js ecosystem
+- Flask Framework
 - All contributors and maintainers
 
 ## 📞 For more information and concern pls contect me
