@@ -1,15 +1,10 @@
-# Laravel Development Environment
+# PlanitosCare AI: Plant Disease Recognition
 
-A comprehensive Laravel development setup with integrated Python analytics and automated deployment scripts.
-
-## 🚀 Features
+## 🚀 TechStachs
 
 - **Laravel Framework** - Modern PHP web application framework
 - **NPM Development Server** - Hot reload and asset compilation
 - **Flask Server** - Load and executes Computer Vision and Gemini AI models
-- **Automated Environment Setup** - One-click development environment startup
-- **Encrypted Environment Configuration** - Secure .env file management
-- **Multi-Window Development** - Separate command windows for each service
 
 ## 📋 Prerequisites
 
