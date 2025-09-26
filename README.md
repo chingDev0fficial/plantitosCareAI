@@ -1,4 +1,3 @@
-$readmeContent = @'
 # Laravel Development Environment
 
 A comprehensive Laravel development setup with integrated Python analytics and automated deployment scripts.
