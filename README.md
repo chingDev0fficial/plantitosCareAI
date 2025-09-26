@@ -122,12 +122,12 @@ This project is licensed under the [MIT License](LICENSE).
 - NPM and Node.js ecosystem
 - All contributors and maintainers
 
----
+## 📞 For more information and concern pls contect me
+- (+63) 9676877741
+- Hexacoders.ching03@gmail.com (`Personal Email`)
+- pajoc@ssct.edu.ph (`Surigao del Norte States University (SNSU) Email`)
 
-## For more information and concern pls contect me
-(+63) 9676877741
-Hexacoders.ching03@gmail.com (Personal Email)
-pajoc@ssct.edu.ph (Surigao del Norte States University (SNSU) Email)
+---
 
 **Happy Coding! 🎉**
 
