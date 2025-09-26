@@ -8,6 +8,9 @@
 
 ## 📋 Prerequisites
 
+## 🗂️ Dataset
+- https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
 Before you begin, ensure you have the following installed:
 
 - **PHP** >= 8.1
