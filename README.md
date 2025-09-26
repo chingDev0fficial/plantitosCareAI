@@ -19,52 +19,30 @@ Before you begin, ensure you have the following installed:
 - **PHP** >= 8.1
 - **Composer** - PHP dependency manager
 - **Node.js** >= 16.x and **NPM**
-- **Python** >= 3.8
+- **Python** >= 3.9
 - **Git**
 
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <project-name>
+git clone https://github.com/chingDev0fficial/plantitosCareAI.git
+cd plant_disease_identifyer_app
 ```
 
-### 2. Install PHP Dependencies
+### 2. Run Build
 ```bash
-composer install
+.\build.exe
 ```
 
-### 3. Install Node.js Dependencies
+### 3. Run Project Locally
 ```bash
-npm install
+.\run.exe
 ```
-
-### 4. Set Up Python Virtual Environment
-```bash
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-# or
-source .venv/bin/activate  # Linux/Mac
-pip install -r requirements.txt
-```
-
 ### 5. Environment Configuration
 The project uses encrypted environment files. The startup script will automatically decrypt the `.env` file if it doesn't exist.
 
 ## 🚀 Quick Start
-
-### Option 1: Using Batch File (Windows)
-Simply double-click `run.bat` or execute from command line:
-```bash
-run.bat
-```
-
-### Option 2: Using Executable
-If you have the compiled executable:
-```bash
-run.exe
-```
 
 ### Option 3: Manual Start
 ```bash
@@ -108,15 +86,11 @@ The project uses encrypted environment configuration. Key variables include:
 ### Laravel Configuration
 Standard Laravel configuration files are located in the `config/` directory.
 
-### Python Configuration
-Python dependencies are listed in `requirements.txt`. The virtual environment is automatically activated by the startup scripts.
-
 ## 🌐 Development Workflow
 
-1. **Start Development Environment**: Run `run.bat` to start all services
+1. **Start Development Environment**: Run `.\run.exe` to start all services
 2. **Laravel Development**: Access your app at `http://localhost:8000`
 3. **Frontend Development**: NPM runs in watch mode for live reloading
-4. **Python Analytics**: Scripts run automatically and can be modified in the `python/` directory
 
 ## 📊 Services Overview
 
@@ -131,40 +105,6 @@ Python dependencies are listed in `requirements.txt`. The virtual environment is
 - **Encrypted Environment Files** - Sensitive configuration is encrypted
 - **Automated Decryption** - Startup scripts handle environment setup
 - **Virtual Environment Isolation** - Python dependencies are containerized
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Port Already in Use**
-```bash
-# Check what's using port 8000
-netstat -ano | findstr :8000
-# Kill the process if needed
-taskkill /PID <process-id> /F
-```
-
-**Environment Decryption Failed**
-- Verify the encryption key is correct
-- Check if you have proper permissions
-- Ensure PHP OpenSSL extension is enabled
-
-**Python Virtual Environment Issues**
-```bash
-# Recreate virtual environment
-rmdir /s .venv
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-**NPM Issues**
-```bash
-# Clear NPM cache and reinstall
-npm cache clean --force
-rm -rf node_modules package-lock.json
-npm install
-```
 
 ## 🚀 Deployment
 
@@ -188,15 +128,6 @@ Use the provided startup scripts for local development.
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## 📞 Support
-
-If you encounter any issues or need support:
-
-1. Check the [troubleshooting section](#-troubleshooting)
-2. Review Laravel documentation: https://laravel.com/docs
-3. Create an issue in this repository
-4. Contact the development team
 
 ## 🙏 Acknowledgments
 
