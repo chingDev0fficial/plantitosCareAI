@@ -6,10 +6,10 @@
 - **NPM Development Server** - Hot reload and asset compilation
 - **Flask Server** - Load and executes Computer Vision and Gemini AI models
 
-## 📋 Prerequisites
-
 ## 🗂️ Dataset
 - https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
