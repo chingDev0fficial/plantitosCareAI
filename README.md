@@ -6,7 +6,7 @@ A comprehensive Laravel development setup with integrated Python analytics and a
 
 - **Laravel Framework** - Modern PHP web application framework
 - **NPM Development Server** - Hot reload and asset compilation
-- **Python Analytics Integration** - Data analysis capabilities with virtual environment
+- **Flask Server** - Load and executes Computer Vision and Gemini AI models
 - **Automated Environment Setup** - One-click development environment startup
 - **Encrypted Environment Configuration** - Secure .env file management
 - **Multi-Window Development** - Separate command windows for each service
@@ -34,16 +34,14 @@ cd plant_disease_identifyer_app
 .\build.exe
 ```
 
-### 3. Run Project Locally
+## 🚀 Quick Start
+
+### Option 1: Run Project Locally (Recommended)
 ```bash
 .\run.exe
 ```
-### 5. Environment Configuration
-The project uses encrypted environment files. The startup script will automatically decrypt the `.env` file if it doesn't exist.
 
-## 🚀 Quick Start
-
-### Option 3: Manual Start
+### Option 2: Manual Start
 ```bash
 # Terminal 1 - Laravel Server
 php artisan serve
@@ -68,7 +66,6 @@ python python\analyze.py
 ├── .venv/                 # Python virtual environment
 ├── run.bat                # Development environment startup script
 ├── run.exe                # Compiled executable version
-└── README.md              # This file
 ```
 
 ## 🔧 Configuration
@@ -79,7 +76,6 @@ The project uses encrypted environment configuration. Key variables include:
 - `APP_NAME` - Application name
 - `APP_ENV` - Application environment (local, production)
 - `APP_URL` - Application URL
-- `DB_CONNECTION` - Database connection details
 - `PYTHON_ANALYTICS_PATH` - Path to Python scripts
 
 ### Laravel Configuration
@@ -96,8 +92,8 @@ Standard Laravel configuration files are located in the `config/` directory.
 | Service | Port | Purpose | Window Title |
 |---------|------|---------|--------------|
 | Laravel | 8000 | Web application server | Laravel Server |
-| NPM | - | Asset compilation & hot reload | NPM Dev Server |
-| Python | - | Data analysis and processing | Python Analysis |
+| NPM | 5173 | Asset compilation & hot reload | NPM Dev Server |
+| Flask | 5000 | Model Loader | Flask Server |
 
 ## 🔒 Security Features
 
@@ -106,15 +102,6 @@ Standard Laravel configuration files are located in the `config/` directory.
 - **Virtual Environment Isolation** - Python dependencies are containerized
 
 ## 🚀 Deployment
-
-### Development
-Use the provided startup scripts for local development.
-
-### Production
-1. Set `APP_ENV=production` in your environment
-2. Run `php artisan config:cache`
-3. Run `npm run production`
-4. Configure your web server to point to `public/index.php`
 
 ## 🤝 Contributing
 
@@ -138,7 +125,6 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Happy Coding! 🎉**
-'@
 
 # Write to README.md file
 $readmeContent | Out-File -FilePath "README.md" -Encoding UTF8
