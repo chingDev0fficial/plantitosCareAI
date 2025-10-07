@@ -74,7 +74,7 @@ The project uses encrypted environment configuration. Key variables include:
 - `APP_NAME` - Application name
 - `APP_ENV` - Application environment (local, production)
 - `APP_URL` - Application URL
-- `PYTHON_ANALYTICS_PATH` - Path to Python scripts
+- `GEMINI_AI_API_KEY` - Gemini API key
 
 ### Laravel Configuration
 Standard Laravel configuration files are located in the `config/` directory.
