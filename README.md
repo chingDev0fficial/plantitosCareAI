@@ -55,7 +55,7 @@ python python\analyze.py
 ## 📁 Project Structure
 
 ```
-├── app/                    # Laravel application code
+├── app/                   # Laravel application code
 ├── resources/             # Views, assets, and frontend code
 ├── python/                # Python analytics scripts
 │   └── analyze.py         # Main analysis script
