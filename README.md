@@ -56,13 +56,13 @@ python python\analyze.py
 
 ```
 ├── app/                    # Laravel application code
-├── resources/              # Views, assets, and frontend code
-├── python/                 # Python analytics scripts
+├── resources/             # Views, assets, and frontend code
+├── python/                # Python analytics scripts
 │   └── analyze.py         # Main analysis script
-├── public/                 # Public assets and entry point
-├── storage/                # File storage and logs
+├── public/                # Public assets and entry point
+├── storage/               # File storage and logs
 ├── .venv/                 # Python virtual environment
-├── build.exe                # Development environment startup script
+├── build.exe              # Development environment startup script
 ├── run.exe                # Compiled executable version
 ```
 
