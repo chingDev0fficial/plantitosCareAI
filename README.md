@@ -62,7 +62,7 @@ python python\analyze.py
 ├── public/                 # Public assets and entry point
 ├── storage/                # File storage and logs
 ├── .venv/                 # Python virtual environment
-├── run.bat                # Development environment startup script
+├── build.exe                # Development environment startup script
 ├── run.exe                # Compiled executable version
 ```
 
